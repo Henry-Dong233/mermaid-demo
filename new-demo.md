@@ -1,3 +1,4 @@
+```mermaid
 graph TD
     A[Root<br/>MAX<br/>α=12 β=∞] --> B{L-MIN<br/>val=12};
     A --> C{R-MIN<br/>α=12 β=2<br/>(Pruning occurs here)};
@@ -25,3 +26,4 @@ graph TD
 
     style C fill:#f99,stroke:#333,stroke-width:2px
     linkStyle 2 stroke-width:2px,stroke:red,fill:none;
+```
